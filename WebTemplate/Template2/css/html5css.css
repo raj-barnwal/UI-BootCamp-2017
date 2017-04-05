@@ -1,0 +1,187 @@
+body {
+    background-color: #fff7da;
+    margin: 0 auto;
+    width: 60%;
+    height: 600px;
+}
+
+header {
+    height: 75px;
+    border-bottom: 2px solid #bba8aa;
+}
+
+h1{
+    font-size: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+figure {
+    float: left;
+}
+
+.banner-image {
+    width: 810px;
+    height: 210px;
+    border-radius: 5px;
+}
+
+article {
+    position: relative;
+}
+
+article section {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+article > section > p {
+    float: left;
+    color: #fff;
+    padding-left: 5px;
+}
+
+article > section > button {
+    background-color: #821416;
+    color: #fff;
+    margin: 15px 0 0 400px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    height: 20px;
+}
+
+button:after {
+    content: "\2023";
+    padding-left: 3px;
+    font-size: 12px;
+}
+
+main {
+    border-bottom: 2px solid #bba8aa;
+    overflow: hidden;
+}
+
+.section-heading {
+    display: inline-flex;
+}
+
+.section-heading img {
+    width: 25px;
+    height: 30px;
+    margin-top: 17px;
+    padding-right: 10px;
+}
+
+main section {
+    width: 70%;
+    float: left;
+}
+
+main > section > p {
+    text-align: justify;
+    clear: both;
+}
+
+main aside {
+    background-color: #706b64;
+    width: 25%;
+    height: auto;
+    float: right;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    padding: 15px 8px;
+    margin: 5px 0 0 5px;
+    position: relative;
+}
+
+aside::before {
+    content:"";
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    top: 60px;
+    left: -30px; /* 1px buffer for zooming problems while rendering*/
+    border-width: 20px;
+    border-color: transparent #706b64 transparent transparent;
+    border-style: solid;
+}
+
+main > aside > p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+main > aside > #social_icon {
+    width: 150px;
+    height: auto;
+}
+
+.footer-left {
+    width: 20%;
+    float: left;
+}
+
+.footer-center {
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+}
+
+.footer-right {
+    width: 30%;
+    float: right;
+}
+
+.tourist {
+    width: 55px;
+    height: 55px;
+}
+
+.footer-center ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-center ul li {
+    display: inline;
+}
+
+.footer-right ul {
+    list-style-type: none;
+    padding: 0;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.footer-right li::before {
+    content: "\2023";
+    padding-right: 5px;
+    color: #ba7367;
+    font-weight: bold;
+}
+
+.footer-right ul li a {
+    text-decoration: none;
+    color: #ba7367;
+}

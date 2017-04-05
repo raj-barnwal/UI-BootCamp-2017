@@ -1,0 +1,113 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    color: #fff;
+    background-color: #fa7913;
+    padding: 33px 37px 25px 16px;
+}
+
+.date-span {
+    float: right;
+}
+
+.contact-div {
+    padding: 37px 72px 42px 69px;
+    font-size: 22px;
+    display: block;
+}
+
+.call-text {
+    float: right;
+}
+
+.contact {
+    color: #fa7913;
+    float: right;
+    padding-left: 17px;
+}
+/*
+.tiger-img{
+    max-width: 100%;
+    margin: auto;
+}*/
+.paragraph-div {
+    background-color: #fa7913;
+    padding: 54px 156px 30px 35px;
+    color: #fff;
+    margin-top: -5px;/*Ask*/
+}
+
+.paragraph-heading {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.paragraph-desc {
+    font-size: 16px;
+}
+
+.imagetext-div {
+    background-color: #3b3b3b;
+    padding: 22px 41px 22px 28px;
+    display: block;
+}
+
+.girl-image {
+    width: 40%;
+    height:270px;
+}
+
+.div-text {
+    margin-top: 4px;
+    background-color: #fa7913;
+    color: #fff;
+    float: right;
+    width: 50%;
+    height:270px;
+    padding: 30px 40px;
+}
+
+.para1 {
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.desc1 {
+    font-size: 20px;
+}
+
+.add-div {
+    border-top: 6px solid #fa7913;
+}
+
+.add-text {
+    font-size: 49px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.add-para {
+    font-size: 26px;
+    text-align: center;
+}
+
+.copy-text {
+    text-align: center;
+    color: #fa7913;
+    font-size: 26px;
+}
+
+.footer {
+    padding: 65px 0px;
+    text-align: center;
+    background-color: #fa7913;
+}

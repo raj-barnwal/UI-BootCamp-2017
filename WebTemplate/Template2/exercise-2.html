@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise-2</title>
+    <style>
+        form{
+            width: 400px;
+        }
+        input[type="submit"]{
+            background-color:#008000;
+            margin-left: 293px;
+            height: 20px;
+            border: none;
+        }
+        input[type="reset"]
+        {
+            background-color: #f00;
+            border: none;
+            height: 20px;
+        }
+        input[type='number']{
+            width: 169px;
+        }
+    </style>
+</head>
+<body>
+<h1>Customer and Book Form</h1>
+<form action="#" method="get">
+    <fieldset>
+        <legend>Customer Info</legend>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" pattern="[A-Za-z]+" placeholder="Enter Name" autofocus required></td>
+            </tr>
+            <tr>
+                <td>Telephone:</td>
+                <td><input type="tel" maxlength="10" pattern="[0-9]{10}" placeholder="Enter Telephone Number" name="contact" required></td>
+            </tr>
+            <tr>
+                <td>Email Address</td>
+                <td><input type="email" name="email" placeholder="Enter email address" required></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Books</legend>
+        <table>
+            <tr>
+                <td>Book Name:</td>
+                <td>
+                    <input list="books" placeholder="Select Book name" required>
+                    <datalist id="books">
+                        <option value="Photoshop">
+                        <option value="HTML 5">
+                        <option value="CSS 3">
+                        <option value="JQuery">
+                        <option value="Java Script">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>Quantity(Maximum 5):</td>
+                <td><input type="number" placeholder="Select quantity" width="200px" max="5" min="1"  required></td>
+            </tr>
+        </table>
+    </fieldset>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>

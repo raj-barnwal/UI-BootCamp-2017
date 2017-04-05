@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Advance Template Design</title>
+    <style>
+        .menu {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+        .menu li{
+            float: left;
+            width: 120px;
+            height: 30px;
+            line-height: 30px;
+        }
+         .menu li a{
+            text-decoration: none;
+            display: block;
+        }
+        .menu li a:hover{
+            color: #2c3033;
+        }
+        .dropdown{
+            padding: 0;
+            margin: 0;
+        }
+        .menu li .dropdown li{
+            display: none;
+        }
+        .menu li:hover .dropdown li{
+            display: block;
+        }
+
+        .dropdown-image{
+            padding: 0;
+            margin: 0;
+            display: inline-flex;
+            float: right;
+        }
+
+        .menu li .dropdown-image li{
+            display: none;
+            width: 68.5px;
+        }
+        .menu li .dropdown-image li img{
+            margin: 0;
+            width:60px;
+            height: 90px;
+        }
+
+        .menu li:hover .dropdown-image li{
+            display: inline;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+
+    <div class="navbar-contents">
+        <ul class="menu">
+            <li><a href="#">Sectors</a>
+                <ul class="dropdown">
+                    <li><a href="#">Leadership</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Top 10</a></li>
+                </ul>
+
+            </li>
+            <li><a href="#"> Videos</a></li>
+            <li><a href="#"> Reports</a></li>
+            <li><a href="#">Magazines</a>
+                <ul class="dropdown-image">
+                <li><a href="#"><img src="images/magazine/aug_magazine.png" alt="August magazine"></a></li>
+                <li><a href="#"><img src="images/magazine/july_magazine.png" alt="July magazine"></a></li>
+                <li><a href="#"><img src="images/magazine/june_magazine.png" alt="June magazine"></a></li>
+                <li><a href="#"><img src="images/magazine/may_magazine.png" alt="May magazine"></a></li>
+                <li><a href="#"><img src="images/magazine/april_magazine.png" alt="April magazine"></a></li>
+                <li><a href="#"><img src="images/magazine/march_magazine.png" alt="March magazine"></a></li>
+                    <li><a href="#"><span> View More</span></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+
+</body>
+</html>
